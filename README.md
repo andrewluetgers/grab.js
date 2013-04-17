@@ -12,7 +12,7 @@ npm module:
 
 when you require the npm module it will augment root._ if it exists or add it if it doesn't
 
-	require("mr-hiccup");
+	require("grab");
 
 Adds just the grab function to underscore
 
