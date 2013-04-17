@@ -10,7 +10,7 @@
 	}
 
 	if (!_) {
-		throw new Error("Mr Hiccup requires underscore.js");
+		throw new Error("grab.js requires underscore.js");
 	}
 
 	// cache regexes and strings to save some garbage
