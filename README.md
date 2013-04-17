@@ -3,9 +3,14 @@ grab.js
 
 Simplify grabbing values out of complex objects.
 
+This is an add-on for for underscore. So in the browser you'll need to load that first;
 
+In node it will augment root._ if it exists or add it if it doesn't;
 
-	// assume the following object for all examples
+	npm install grab
+
+assume the following object for all examples
+
 	var data = {
 		stuff: {
 			music: {
