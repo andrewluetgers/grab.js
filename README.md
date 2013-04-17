@@ -3,11 +3,18 @@ grab.js
 
 Simplify grabbing values out of complex objects.
 
-This is an add-on for for underscore. So in the browser you'll need to load that first;
 
-In node it will augment root._ if it exists or add it if it doesn't;
+This is an add-on for for underscore. So in the browser you'll need to load that first
+
+npm module:
 
 	npm install grab
+
+when you require the npm module it will augment root._ if it exists or add it if it doesn't
+
+	require("mr-hiccup");
+
+Adds just the grab function to underscore
 
 assume the following object for all examples
 
