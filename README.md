@@ -75,6 +75,7 @@ use an array to include a default value when using the multiple selection syntax
 
 
 using an array for multiple paths is supported here too
+
 	var items = _.grab(data, {
 		artist: [["stuff.blah.name", "stuff.music.name"]],
 		movieYear: [["stuff.foo.year", "stuff.movie.year"]]
