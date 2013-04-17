@@ -2,7 +2,7 @@
 	"author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
 	"name": "grab",
 	"description": "Makes grabbing values out of complex objects simpler.",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"homepage": "https://github.com/andrewluetgers/grab.js",
 	"repository": {
 		"type": "git",
