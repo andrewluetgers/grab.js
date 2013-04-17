@@ -1,4 +1,4 @@
 grab.js
 =======
 
-simplify grabbing values out of complex objects
+Simplify grabbing values out of complex objects.

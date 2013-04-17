@@ -1,0 +1,28 @@
+{
+	"author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
+	"name": "grab",
+	"description": "Makes grabbing values out of complex objects simpler.",
+	"version": "0.0.2",
+	"homepage": "https://github.com/andrewluetgers/grab.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrewluetgers/grab.js"
+	},
+	"bugs": "https://github.com/andrewluetgers/grab.js/issues",
+	"main": "./lib/grab.js",
+	"keywords": [
+		"value",
+		"object",
+		"json",
+		"query",
+		"path",
+		"default"
+	],
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+		"underscore": ">= 1.4.x"
+	},
+	"license": "MIT"
+}
