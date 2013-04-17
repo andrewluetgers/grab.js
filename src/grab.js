@@ -5,8 +5,8 @@
 	var root = this,
 		_ = root._;
 
-	if ("module" in root && module.exports) {
-		_ = require("underscore");
+	if (!_ && "module" in root && module.exports) {
+		root._ = _ = require("underscore");
 	}
 
 	if (!_) {
